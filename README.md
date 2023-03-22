@@ -15,17 +15,17 @@ This project uses the React framework as well as many essential libraries which 
 
 ```bash 
 
-npm create vite@latest
+> npm create vite@latest
 
-cd [project-name]
+> cd [project-name]
 
-npm i
+> npm i
 
-npm run dev
+> npm run dev
 
 ```
 
-# Project Structure
+## Project Structure
 
 1. [**node_modules**](https://github.com/redayzarra/study-react/tree/master/node_modules) folder: Where all libraries and dependencies are installed. Never have to touch this.
 
@@ -38,6 +38,3 @@ npm run dev
 5. [**package.json**](https://github.com/redayzarra/study-react/blob/master/package.json): Information about our project, including name and dependencies. 
 
 6. [**tsconfig.json**](https://github.com/redayzarra/study-react/blob/master/tsconfig.json): Settings for the TypeScript compiler to convert our code to Javascript
-
-# Creating a React Component
-
