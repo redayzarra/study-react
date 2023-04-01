@@ -3,8 +3,8 @@ import Button from "./components/Button";
 function App() {
   return (
     <div>
-      <Button>
-        Hello <span>World</span>
+      <Button color="danger" onClick={() => console.log("Nice!")}>
+        Hello <span> World</span>
       </Button>
     </div>
   );
