@@ -14,7 +14,11 @@ function ListGroup() {
       <ul className="list-group">
         {items.map((item, index) => (
           <li
-            className={ selectedIndex == index ? "list-group-item active" : "list-group-item"}
+            className={
+              selectedIndex == index
+                ? "list-group-item active"
+                : "list-group-item"
+            }
             key={item}
             onClick={handleClick}
           >
