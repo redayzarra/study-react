@@ -2,7 +2,7 @@ import { useState } from "react";
 import Alert from "./components/Alert";
 import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
-import {BsFillCalendarFill} from "react-icons/bs"
+import { BsFillCalendarFill } from "react-icons/bs";
 
 function App() {
   const [alertVisible, setAlertVisibility] = useState(false);
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-      <BsFillCalendarFill color = "black" size = "40"/>
+      <BsFillCalendarFill color="black" size="40" />
       <ListGroup
         items={items}
         heading="Cities"
