@@ -20,7 +20,7 @@ function App() {
         heading="Cities"
         onSelectItem={handleSelectItem}
       />
-      <Like></Like>
+      <Like onClick={() => console.log("Clicked")} />
     </div>
   );
 }

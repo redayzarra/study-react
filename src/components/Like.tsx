@@ -1,11 +1,20 @@
 import React, { useState } from "react";
 import { AiFillHeart, AiOutlineHeart } from "react-icons/ai";
 
-const Like = () => {
+interface Props {
+  onClick: () => void;
+}
+
+const Like = ({ onClick }: Props) => {
   const [status, setStatus] = useState(true);
 
-  if (status) return <AiFillHeart color="#ff6b81" size="40" onClick={() => setStatus(false)}/>;
-  return <AiOutlineHeart color="#ff6b81" size="40" onClick={() => setStatus(true)}/>;
+  const toggle = () => {
+    setStatus(!status);
+    onClick();
+  };
+
+  if (status) return <AiFillHeart color="#ff6b81" size="40" onClick={toggle} />;
+  return <AiOutlineHeart size="40" onClick={toggle} />;
 };
 
 export default Like;
