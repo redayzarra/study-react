@@ -59,3 +59,15 @@ This project uses the React framework as well as many essential libraries which 
 **Benefits:** This allows our programs to be more modular, easy to understand, maintain, and modify. We can build and test every module independently and use them again in other programs.
 
 **Module:** All the complexity and implementation details are hidden behind a structured interface.
+
+## Popular UI Libraries
+
+1. Bootstrap - easy to use
+
+2. Material UI - Google's material design used to make Google products.
+
+3. Tailwind CSS - Utility first CSS library. Never have to write CSS.
+
+4. Daisy UI - Full fledged components with cleaner markup
+
+5. Chakra UI - React component library built on top of Tailwind CSS
