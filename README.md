@@ -51,3 +51,11 @@ This project uses the React framework as well as many essential libraries which 
 **Props:** The input or arguments passed to a component. Similar to function arguments. We should treat props as immutable or unchangeable. React will rerender and "react" to it to update the DOM.
 
 **State:** The data managed by a component that can change over time. Similar to local variables. States are mutable and the data can be changed. React will rerender and "react" to it to update the DOM.
+
+## Seperation of Concerns
+
+**Lead Concept:** Divide a program into distinct sections where each section handles a specific functionality, rather than having everything in one place. Each module is reponsible for one specific function.
+
+**Benefits:** This allows our programs to be more modular, easy to understand, maintain, and modify. We can build and test every module independently and use them again in other programs.
+
+**Module:** All the complexity and implementation details are hidden behind a structured interface.
