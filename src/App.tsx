@@ -4,6 +4,7 @@ import Button from "./components/Button";
 import ListGroup from "./components/ListGroup";
 import { BsFillCalendarFill } from "react-icons/bs";
 import Like from "./components/Like";
+import Message from "./components/Message";
 
 function App() {
   // const [firstName, setFirstName] = useState("");
@@ -17,7 +18,14 @@ function App() {
 
   const [isLoading, setLoading] = useState(false);
 
-  return <div></div>;
+  return (
+    <div>
+      <Message />
+      <Message />
+      <Message />
+      <Message />
+    </div>
+  );
 }
 
 export default App;

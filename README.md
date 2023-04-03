@@ -79,3 +79,9 @@ This project uses the React framework as well as many essential libraries which 
 ## Best Practices
 
 **Lead Concept:** Avoid redundant state variables like a full name or anything that can be computed from existing variables. Make sure to group related variables inside an object but avoid deeply nested structures.
+
+## Purity
+
+**Pure Function:** Given the same input, the output will always be the same. React expects every component to be a pure function for performance reasons. 
+
+**Pure Components:** Keep components pure by keeping any changes out of render phase. 
