@@ -6,23 +6,18 @@ import { BsFillCalendarFill } from "react-icons/bs";
 import Like from "./components/Like";
 
 function App() {
-  const [alertVisible, setAlertVisibility] = useState(false);
-  let items = ["New York", "Miami", "Tokyo", "Boston", "Chicago"];
-  const handleSelectItem = (item: string) => {
-    console.log(item);
-  };
+  // const [firstName, setFirstName] = useState("");
+  // const [lastName, setLastName] = useState("");
+  // const fullName = firstName + " " + lastName;
 
-  return (
-    <div>
-      <BsFillCalendarFill color="black" size="40" />
-      <ListGroup
-        items={items}
-        heading="Cities"
-        onSelectItem={handleSelectItem}
-      />
-      <Like onClick={() => console.log("Clicked")} />
-    </div>
-  );
+  const [person, setPerson] = useState({
+    firstName: "",
+    lastName: "",
+  });
+
+  const [isLoading, setLoading] = useState(false);
+
+  return <div></div>;
 }
 
 export default App;
