@@ -7,21 +7,24 @@ import Like from "./components/Like";
 import Message from "./components/Message";
 
 function App() {
-  const [customer, setCustomer] = useState({
-    name: "Ashley",
-    address: {
-      city: "Chicago",
-      zipCode: 94111,
-    },
-  });
+  const [tags, setTags] = useState(["happy", "cheerful"]);
 
   const handleClick = () => {
-    setCustomer({
-      ...customer,
-      address: { ...customer.address, zipCode: 94112 },
-    });
+    // Add new item
+    setTags([...tags, "exciting"]);
+
+    //remove
+    setTags(tags.filter((tag) => tag !== "happy"));
+
+    //update
+    setTags(tags.map((tag) => (tag == "happy" ? "happiness" : tag)));
   };
-  return <div></div>;
+  return (
+    <div>
+      {tags}
+      <button onClick={handleClick}>Button</button>
+    </div>
+  );
 }
 
 export default App;
