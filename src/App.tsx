@@ -7,23 +7,19 @@ import Like from "./components/Like";
 import Message from "./components/Message";
 
 function App() {
-  // const [firstName, setFirstName] = useState("");
-  // const [lastName, setLastName] = useState("");
-  // const fullName = firstName + " " + lastName;
-
-  const [person, setPerson] = useState({
-    firstName: "",
-    lastName: "",
+  const [drink, setDrink] = useState({
+    title: "Americano",
+    price: 5,
   });
 
-  const [isLoading, setLoading] = useState(false);
+  const handleClick = () => {
+    setDrink({ ...drink, price: 6 });
+  };
 
   return (
     <div>
-      <Message />
-      <Message />
-      <Message />
-      <Message />
+      {drink.price}
+      <button onClick={handleClick}>My Button</button>
     </div>
   );
 }
