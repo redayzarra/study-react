@@ -6,11 +6,18 @@ import { BsFillCalendarFill } from "react-icons/bs";
 import Like from "./components/Like";
 import Message from "./components/Message";
 import produce from "immer";
+import Navbar from "./components/Navbar";
+import Cart from "./components/Cart";
 
 function App() {
   const [cartItems, setCartItems] = useState(["Product1", "Product2"]);
 
-  return <div></div>;
+  return (
+    <div>
+      <Navbar cartItemsCount={cartItems.length}></Navbar>
+      <Cart cartItems={cartItems} onClear={() => setCartItems([])}></Cart>
+    </div>
+  );
 }
 
 export default App;
