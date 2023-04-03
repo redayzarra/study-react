@@ -75,3 +75,7 @@ This project uses the React framework as well as many essential libraries which 
 ## State Hook
 
 **Lead Concept:** React updates asynchronously and not immediately to minimize unncessary rerenders. The state is stored outside of its components because we do not want the state to be reset by functions. You can only use hooks at the top of your components.
+
+## Best Practices
+
+**Lead Concept:** Avoid redundant state variables like a full name or anything that can be computed from existing variables. Make sure to group related variables inside an object but avoid deeply nested structures.
