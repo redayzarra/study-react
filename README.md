@@ -71,3 +71,7 @@ This project uses the React framework as well as many essential libraries which 
 4. Daisy UI - Full fledged components with cleaner markup
 
 5. Chakra UI - React component library built on top of Tailwind CSS
+
+## State Hook
+
+**Lead Concept:** React updates asynchronously and not immediately to minimize unncessary rerenders. The state is stored outside of its components because we do not want the state to be reset by functions. You can only use hooks at the top of your components.
