@@ -2,8 +2,8 @@ import React from "react";
 
 let count = 0;
 const Message = () => {
-  console.log("Message called", count)
   count++;
+  console.log("Message called", count);
   return <div>Message {count}</div>;
 };
 
