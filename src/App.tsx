@@ -10,7 +10,14 @@ import Navbar from "./components/Navbar";
 import Cart from "./components/Cart";
 
 function App() {
-  const [cartItems, setCartItems] = useState(["Product1", "Product2"]);
+  const [game, setGame] = useState({
+    id: 1,
+    player: {
+      name: "John",
+    },
+  });
+
+  const handleClick = () => {};
 
   return (
     <div>
