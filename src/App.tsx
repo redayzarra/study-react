@@ -10,14 +10,15 @@ import Navbar from "./components/Navbar";
 import Cart from "./components/Cart";
 
 function App() {
-  const [pizza, setPizza] = useState({
-    name: "Spicy Cheese",
-    toppings: ["Mushroom"],
+  const [cart, setCart] = useState({
+    discount: 0.1,
+    items: [
+      { id: 1, title: "Product 1", quantity: 1 },
+      { if: 2, title: "Product 2", quantity: 2 },
+    ],
   });
 
-  const handleClick = () => {
-    setPizza({ ...pizza, toppings: [...pizza.toppings, "Cheese"] });
-  };
+  const handleClick = () => {};
 
   return <div></div>;
 }
