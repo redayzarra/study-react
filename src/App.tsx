@@ -18,7 +18,14 @@ function App() {
     ],
   });
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    setCart({
+      ...cart,
+      items: cart.items.map((item) =>
+        item.id == 1 ? { ...item, quantity: item.quantity + 1 } : item
+      ),
+    });
+  };
 
   return <div></div>;
 }
