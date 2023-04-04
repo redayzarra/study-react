@@ -17,14 +17,11 @@ function App() {
     },
   });
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    setGame({ ...game, player: { ...game.player, name: "Bob" } });
+  };
 
-  return (
-    <div>
-      <Navbar cartItemsCount={cartItems.length}></Navbar>
-      <Cart cartItems={cartItems} onClear={() => setCartItems([])}></Cart>
-    </div>
-  );
+  return <div></div>;
 }
 
 export default App;
