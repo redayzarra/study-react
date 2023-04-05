@@ -30,18 +30,18 @@ function App() {
 
   return (
     <div>
-      <ExpandableText>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, illo
-        ullam! Eos vero tempora quas neque! Hic enim laudantium autem commodi
-        nobis numquam maxime ducimus itaque. Maxime fuga delectus fugiat,
-        assumenda nulla minus, labore, laboriosam sunt quod voluptatem autem id!
-        Temporibus dolorem provident illo quis quae in repellat fuga unde, iure
-        debitis numquam ratione enim harum eius dolorum commodi. Consequuntur
-        aperiam suscipit ea, molestias vitae beatae, totam, velit nisi labore
-        exercitationem provident! Excepturi maiores aliquid ex molestiae
-        mollitia, neque repellendus eius vel eos eum perspiciatis, reiciendis ab
-        ipsum officiis amet sed tenetur deserunt vitae iure? Commodi ducimus
-        consectetur unde dignissimos!
+      <ExpandableText maxChars={100}>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nemo ad
+        commodi, sunt ab cupiditate cumque mollitia magnam tenetur consequuntur
+        id molestiae nam omnis veritatis voluptatem? Earum velit quibusdam illum
+        sit mollitia soluta veritatis doloribus, numquam recusandae ad, nostrum
+        blanditiis aperiam consequatur modi debitis. Rerum id facere eaque
+        quaerat omnis laboriosam expedita earum dolorum, eius aut quos. Nobis
+        voluptatem eveniet earum, ea culpa sunt cum. Dolor, accusantium alias.
+        Mollitia tenetur reprehenderit possimus deleniti aspernatur nam
+        cupiditate ipsa consequuntur debitis? Deleniti ea minima dolorum,
+        consectetur quidem voluptatum iste nam, ex officia praesentium animi
+        laboriosam illum nobis error culpa velit eveniet? Qui.
       </ExpandableText>
     </div>
   );
