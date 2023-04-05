@@ -8,6 +8,7 @@ import Message from "./components/Message";
 import produce from "immer";
 import Navbar from "./components/Navbar";
 import Cart from "./components/Cart";
+import ExpandableText from "./components/ExpandableText";
 
 function App() {
   const [cart, setCart] = useState({
@@ -27,7 +28,23 @@ function App() {
     });
   };
 
-  return <div></div>;
+  return (
+    <div>
+      <ExpandableText>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, illo
+        ullam! Eos vero tempora quas neque! Hic enim laudantium autem commodi
+        nobis numquam maxime ducimus itaque. Maxime fuga delectus fugiat,
+        assumenda nulla minus, labore, laboriosam sunt quod voluptatem autem id!
+        Temporibus dolorem provident illo quis quae in repellat fuga unde, iure
+        debitis numquam ratione enim harum eius dolorum commodi. Consequuntur
+        aperiam suscipit ea, molestias vitae beatae, totam, velit nisi labore
+        exercitationem provident! Excepturi maiores aliquid ex molestiae
+        mollitia, neque repellendus eius vel eos eum perspiciatis, reiciendis ab
+        ipsum officiis amet sed tenetur deserunt vitae iure? Commodi ducimus
+        consectetur unde dignissimos!
+      </ExpandableText>
+    </div>
+  );
 }
 
 export default App;
