@@ -91,3 +91,9 @@ This project uses the React framework as well as many essential libraries which 
 1. **fetch()**: function which is implemented in all modern browsers and allows you to send a request to the server.
 
 2. **Axios**: a library that allows you to make HTTP requests to communicate with API's or other web servers more easily and efficiently.
+
+## Promises
+
+**Asynchronous:** An operation that may take a long time, essentially long-running.
+
+**Lead Concept:** A promise is an object that holds the eventual result or failure of an asynchronous operation.

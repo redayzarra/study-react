@@ -1,16 +1,13 @@
 import { useEffect, useRef, useState } from "react";
 import produce from "immer";
-
-const connect = () => console.log("Connecting");
-const disconnect = () => console.log("Disconnecting");
+import axios from "axios";
 
 function App() {
+  const [users, setUsers] = useState([]);
+  
   useEffect(() => {
-    document.title = "My App";
-    connect();
-
-    return () => disconnect();
-  });
+    axios.get("https://jsonplaceholder.typicode.com/users")
+  })
 
   return <div></div>;
 }
