@@ -1,13 +1,9 @@
 import { useEffect, useRef, useState } from "react";
 import produce from "immer";
+import ProductList from "./components/ProductList";
 
 function App() {
-  const ref = useRef<HTMLInputElement>(null);
-
-  useEffect(() => {
-    // Side effect - no longer pure
-    if (ref.current) ref.current.focus();
-  });
+  const [category, setCategory] = useState("");
 
   useEffect(() => {
     document.title = "My App";
@@ -15,7 +11,16 @@ function App() {
 
   return (
     <div>
-      <input ref={ref} type="text" className="form-control" />
+      <select
+        id=""
+        className="form-select"
+        onChange={(event) => setCategory(event.target.value)}
+      >
+        <option value=""></option>
+        <option value="Clothing">Clothing</option>
+        <option value="Household">Household</option>
+      </select>
+      <ProductList category={category}></ProductList>
     </div>
   );
 }
