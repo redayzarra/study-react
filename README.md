@@ -88,9 +88,11 @@ This project uses the React framework as well as many essential libraries which 
 
 ## Sending HTTP Requests
 
-1. **fetch()**: function which is implemented in all modern browsers and allows you to send a request to the server.
+1. **HTTP:** *H*yper*t*ext *T*ransfer *P*rotocol is a protocol for transferring data over the internet. Browser sends an HTTP request to the server asking for some content, the server responds with an HTTP response (contains HTML, CSS, etc.) needed to display the website in our browser.
 
-2. **Axios**: a library that allows you to make HTTP requests to communicate with API's or other web servers more easily and efficiently.
+2. **fetch()**: function which is implemented in all modern browsers and allows you to send a request to the server.
+
+3. **Axios**: a library that allows you to make HTTP requests to communicate with API's or other web servers more easily and efficiently.
 
 ## Promises
 
