@@ -82,6 +82,12 @@ This project uses the React framework as well as many essential libraries which 
 
 ## Purity
 
-**Pure Function:** Given the same input, the output will always be the same. React expects every component to be a pure function for performance reasons. 
+**Pure Function:** Given the same input, the output will always be the same. React expects every component to be a pure function for performance reasons.
 
-**Pure Components:** Keep components pure by keeping any changes out of render phase. 
+**Pure Components:** Keep components pure by keeping any changes out of render phase.
+
+## Sending HTTP Requests
+
+1. **fetch()**: function which is implemented in all modern browsers and allows you to send a request to the server.
+
+2. **Axios**: a library that allows you to make HTTP requests to communicate with API's or other web servers more easily and efficiently.
