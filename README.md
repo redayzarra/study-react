@@ -2,7 +2,7 @@
 
 ## Project Website
 
-If you would like to find out more about the project, please checkout: [Game Hub]([https://www.redaysblog.com/projects/](https://game-hub-flame-two.vercel.app/))
+If you would like to find out more about the project, please checkout: [Game Hub](https://game-hub-flame-two.vercel.app/)
 
 ## Installing the libraries
 
